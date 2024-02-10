@@ -13,6 +13,6 @@ jobs:
       run: cat index.html
     - name: courses.html content
       run: |
-        echo line1 
-        echo line2
-        echo cat courses.html
+        echo "line1" 
+        echo "line2"
+        cat courses.html
